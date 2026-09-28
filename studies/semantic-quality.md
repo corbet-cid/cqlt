@@ -3,6 +3,12 @@
 Research assessment, 2026-09-28. No model requests or measured quality results
 are claimed here. Vale is implemented; the semantic options below are research.
 
+Update, 2026-09-29: the optional pure request/replay protocol is implemented in
+[`src/semantic.rs`](../src/semantic.rs) with its [contract](../docs/semantic.md).
+The [synthetic case input](../experiments/semantic-cases.json) supports an
+offline dry run. No hosted calls or model results have been measured yet, and
+the judgments remain for review pending a labeled evaluation.
+
 ## Division of responsibility
 
 | Technology | Useful role | Boundary |

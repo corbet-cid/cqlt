@@ -14,3 +14,9 @@ sha2 = "0.10"
 
 [lints.rust]
 unsafe_code = "forbid"
+unused_must_use = "deny"
+
+[lints.clippy]
+dbg_macro = "deny"
+todo = "deny"
+unimplemented = "deny"

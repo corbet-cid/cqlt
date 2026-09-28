@@ -1,11 +1,12 @@
 //! Forge-neutral quality policies and subordinate checking backends.
-//! Metadata evaluation and prose normalization are pure. Prose execution uses
-//! an explicit caller-supplied runner; cqlt owns its rules and Vale protocol.
+//! Metadata evaluation, prose normalization and semantic replay are pure.
+//! Callers own bounded Vale execution and any authorized Jev HTTP transport.
 #![forbid(unsafe_code)]
 
 mod model;
 mod presentation;
 pub mod prose;
+pub mod semantic;
 
 pub use model::*;
 pub use presentation::{evaluate, valid_login, RULES, RULESET};

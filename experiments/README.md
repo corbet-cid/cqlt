@@ -3,6 +3,10 @@
 `editorial-cases.json` contains synthetic cases and proposed human labels.
 `jev-request.json` is an offline request template with one concrete synthetic
 case and a versioned Jev model. No responses or benchmark results are included.
+`semantic-cases.json` contains the eight case states in the exact input shape
+accepted by `ccid quality semantic`; it excludes the proposed labels. Running
+that command without `--live` prints request hashes and sizes without network
+access. A live run still requires explicit authorization, credentials and caps.
 
 For an authorized experiment, substitute each case's `state` into the template.
 Keep expected labels out of requests. Preserve the exact request, raw response,
