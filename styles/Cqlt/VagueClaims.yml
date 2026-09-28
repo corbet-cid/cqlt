@@ -1,0 +1,11 @@
+extends: existence
+message: "Replace '%s' with a specific capability or supporting evidence."
+level: warning
+scope: text
+ignorecase: true
+tokens:
+  - 'best-in-class'
+  - 'world-class'
+  - 'revolutionary'
+  - 'cutting-edge'
+  - 'seamless(?:ly)?'

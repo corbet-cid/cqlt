@@ -1,0 +1,10 @@
+extends: substitution
+message: "Consider '%s' instead of '%s'."
+level: warning
+scope: text
+ignorecase: true
+swap:
+  'in order to': to
+  'due to the fact that': because
+  'at this point in time': now
+  'utilize': use

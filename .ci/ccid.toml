@@ -1,0 +1,8 @@
+schema = 1
+project = "cqlt"
+
+[checks.rust]
+kind = "cargo"
+actions = ["fmt", "test", "clippy"]
+all_targets = true
+toolchain = "system"
