@@ -57,7 +57,7 @@ semantics and are not evidence of independent editorial approval.
 
 Tunables: callers choose Markdown or plain text for each document and an error,
 warning or suggestion exit threshold. The default rule catalogue is versioned
-with `cqlt-prose-v1`; changing it requires a ruleset update. Input is limited to
+with `cqlt-prose-v2`; changing it requires a ruleset update. Input is limited to
 4,096 documents and 16 MiB of text per invocation; output is limited to 16 MiB.
 Use separate explicit batches for larger collections.
 

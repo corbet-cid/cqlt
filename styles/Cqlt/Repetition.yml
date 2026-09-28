@@ -5,4 +5,5 @@ scope: text
 ignorecase: true
 alpha: true
 tokens:
-  - '\b\w+\b'
+  # Punctuation and Vale's excluded-code markers must break word adjacency.
+  - '\w+|[^\w\s]'

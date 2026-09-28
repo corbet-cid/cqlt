@@ -20,6 +20,8 @@ fn actual_vale_checks_prose_preserves_markdown_and_replays_stably() {
             text:"# Sample\n\nA revolutionary tool in order to check the the text.\n\n```text\nseamless seamless utilize\n```\n\n`world-class`\n".into() },
         Text { subject:"description".into(), format:Format::Text, text:"A world-class tool.".into() },
         Text { subject:"clean".into(), format:Format::Text, text:"A tool for checking repository descriptions.".into() },
+        Text { subject:"code-boundary".into(), format:Format::Markdown,
+            text:"Tools (`prepare` and `run`) and their reports.\n\nGo, go.\n".into() },
         Text { subject:"empty".into(), format:Format::Text, text:String::new() },
     ]).unwrap();
     for (path, content) in plan.files() {

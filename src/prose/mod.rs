@@ -9,7 +9,7 @@ use serde::Serialize;
 use sha2::{Digest, Sha256};
 use std::collections::{BTreeMap, BTreeSet};
 
-pub const RULESET: &str = "cqlt-prose-v1";
+pub const RULESET: &str = "cqlt-prose-v2";
 pub const MAX_INPUT_BYTES: usize = 16 * 1024 * 1024;
 pub const MAX_DOCUMENTS: usize = 4096;
 const CONFIG: &str =
