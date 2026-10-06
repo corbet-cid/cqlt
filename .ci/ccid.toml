@@ -6,3 +6,17 @@ kind = "cargo"
 actions = ["fmt", "test", "clippy"]
 all_targets = true
 toolchain = "system"
+
+[checks.verify]
+kind = "commands"
+commands = [["bash", ".ci/verify.sh"]]
+cache_tools = [["rustc", "-vV"], ["cargo", "--version"]]
+
+[render]
+tool_revision = "81ebac8e86e20bc93b69d5e912bbcb0c0d036d58"
+
+[jobs.verify]
+scheduler = "crow"
+checks = ["rust", "verify"]
+workflow = "repository-jobs"
+command = ["bash", ".ci/run-cached.sh"]
