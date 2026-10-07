@@ -5,7 +5,7 @@ edition = "2021"
 rust-version = "1.89"
 description = "Deterministic organization and repository quality checks over explicit evidence"
 license = "LGPL-3.0-only WITH LGPL-3.0-linking-exception"
-repository = "https://github.com/corbet-foss/cqlt"
+repository = "https://git.corbet.ch/corbet-cid/cqlt"
 
 [dependencies]
 serde = { version = "1", features = ["derive"] }

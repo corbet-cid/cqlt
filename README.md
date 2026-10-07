@@ -1,7 +1,7 @@
 # cqlt
 
 Deterministic organization and repository quality checks over saved evidence.
-A reusable Rust library, consumed by [ccid](https://github.com/corbet-libs/ccid).
+A reusable Rust library, consumed by [ccid](https://git.corbet.ch/corbet-cid/ccid).
 
 cqlt also owns a subordinate [Vale prose backend](docs/prose.md), including its
 writing rules, invocation protocol and stable evidence report. ccid provides
