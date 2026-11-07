@@ -68,7 +68,7 @@ visible for review. No baseline hides newly created repositories.
 
 ## Development
 
-Use current stable Rust (minimum 1.89). Run `cargo fmt --all -- --check`,
+Use current stable Rust. Run `cargo fmt --all -- --check`,
 `cargo test --locked`, and `cargo clippy --all-targets --locked -- -D warnings`.
 The tests cover deterministic ordering, truncation, unknowns, exact exceptions,
 policy typos, threshold behavior, private/fork/archive applicability and malformed
