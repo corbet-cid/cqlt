@@ -1,3 +1,5 @@
+> **Archived 2026-11-09.** This repository keeps the history of cqlt read-only. The canonical repository is <https://git.corbet.ch/corbet-libre/cqlt>.
+
 # cqlt
 
 Deterministic organization and repository quality checks over saved evidence.
